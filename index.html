@@ -1,0 +1,79 @@
+<html>
+<head>
+	<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+	<title>My Design Manifesto</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+	<div id="hero">	
+		<div class="navbar">
+			<img src="images/logo.png" class="logo">
+			<div class="user">
+				<a href="process.html">
+				<button type="button">Explore</button>
+			</a>			
+				<img src="images/user.png">
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="info">
+				<h1>Art Without a Message</h1>
+				<input type="text" placeholder="Search">
+
+		</div>
+	</div>
+
+		<div class="slider">
+			<img src="images/left-arrow.png" id="prev">
+			<div class="preview">
+				<img src="img/small1.png" class="active thumbnail">
+				<img src="img/small2.png" class="thumbnail">
+				<img src="img/small3.png" class="thumbnail">
+				<img src="img/small4.png" class="thumbnail">
+			</div>
+			<img src="images/right-arrow.png" id="next">
+		</div>
+	</div>
+
+<script>
+
+	var prev = document.getElementById("prev");
+	var next = document.getElementById("next");
+	var thumbnail = document.getElementsByClassName("thumbnail");
+	var hero = document.getElementById("hero");
+
+	var backgroundImg = new Array(
+		"img/image1.jpg",
+		"img/image2.jpg",
+		"img/image3.jpeg",
+		"img/image4.jpeg",
+
+		);
+		let i = 0;
+		next.onclick = function(){
+
+			if(i < 3){
+				hero.style.backgroundImage = 'url("'+backgroundImg[i+1]+'")';
+				thumbnail[i+1].classList.add("active");
+				thumbnail[i].classList.remove("active");
+				i++;
+			}
+		}
+		prev.onclick = function(){
+
+			if(i > 0){
+				hero.style.backgroundImage = 'url("'+backgroundImg[i-1]+'")';
+				thumbnail[i-1].classList.add("active");
+				thumbnail[i].classList.remove("active");
+				i--;
+			}
+		}
+
+</script>
+
+
+
+</body>
+</html>
