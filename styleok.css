@@ -20,7 +20,7 @@
 
 }
 .content .logo{
-	width: 100px;
+	width: 150px;
 	margin-top: 20px;
 }
 .content hr{
@@ -28,13 +28,13 @@
 	height: 6px;
 	max-width: 280px;
 	margin-top: 8px;
-	background: #50bbe1;
+	background: #21ff9e;
 }
 .content h1{
-	font-size: 130px;
+	font-size: 100px;
 	font-weight: 100;
 	color: #fff;
-	letter-spacing: 4px;
+	letter-spacing: 2px;
 }
 .sidebar{
 	width: 30%;
@@ -53,7 +53,7 @@
 	color: #fff;
 	border-radius: 20px;
 	display: inline-block;
-	margin-top: 190px;
+	margin-top: 40px;
 
 }
 .content p{
@@ -61,5 +61,5 @@
 	color: #fff;
 	letter-spacing: 1px;
 	line-height: 20px;
-	font-size: 12px;
+	font-size: 10px;
 }

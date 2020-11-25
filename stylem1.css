@@ -3,11 +3,10 @@
 	padding: 0;
 	font-family: sans-serif;
 }
-
 .container{
 	height: 100vh; 
 	width: 100%;
-	background-image: url(img/bg1.jpg);
+	background-image: url(img/image1.jpg);
 	background-size: cover;
 	background-position: center;
 	position: relative;
@@ -21,14 +20,14 @@
 }
 .content .logo{
 	width: 100px;
-	margin-top: 20px;
+	margin-top: 50px;
 }
 .content hr{
 	border: none;
 	height: 6px;
 	max-width: 280px;
 	margin-top: 8px;
-	background: #50bbe1;
+	background: #ffa921;
 }
 .content h1{
 	font-size: 130px;
@@ -46,6 +45,13 @@
 	left: 0;
 	z-index: 1;
 }
+.content p{
+	max-width: 450px;
+	color: #fff;
+	letter-spacing: 1px;
+	line-height: 20px;
+	font-size: 12px;
+}
 .content .btn{
 	padding: 8px 25px;
 	text-decoration: none;
@@ -53,13 +59,6 @@
 	color: #fff;
 	border-radius: 20px;
 	display: inline-block;
-	margin-top: 190px;
-
-}
-.content p{
-	max-width: 450px;
-	color: #fff;
-	letter-spacing: 1px;
-	line-height: 20px;
-	font-size: 12px;
+	margin-top: 50px;
+	
 }
