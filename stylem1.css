@@ -6,7 +6,7 @@
 .container{
 	height: 100vh; 
 	width: 100%;
-	background-image: url(img/image1.jpg);
+	background-image: url(img/image4.jpeg);
 	background-size: cover;
 	background-position: center;
 	position: relative;
@@ -27,7 +27,7 @@
 	height: 6px;
 	max-width: 280px;
 	margin-top: 8px;
-	background: #ffa921;
+	background: #55bcce;
 }
 .content h1{
 	font-size: 130px;
