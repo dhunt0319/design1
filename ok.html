@@ -5,7 +5,8 @@
 
 </head>
 <body>
-	<div class="container">
+
+	<div id="hero">
 		<div class="content">
 			<img src="images/logo3.png" class="logo">
 			<hr>
@@ -14,7 +15,7 @@
 
 2. OK artists make OK art.<br>
 
-3. OK artists really want to make great art, they shoot for the stars, but
+3. OK artists really want to make great art, they shoot for the stars, but<br>
 their work ends up being just OK. OK artists are OK with this.<br>
 
 4. Art enthusiasts and cynics alike, leave an OK art exhibition saying
@@ -51,6 +52,54 @@ consideration of the concept would be OK.<br>
 		</div>
 		<div class="sidebar"></div>
 	</div>
+</div>
 
+	<div class="slider">
+			<img src="images/left-arrow.png" id="prev">
+			<div class="preview">
+				<img src="img/smallok1.png" class="active thumbnail">
+				<img src="img/smallok2.png" class="thumbnail">
+				<img src="img/smallok3.png" class="thumbnail">
+				<img src="img/smallok4.png" class="thumbnail">
+			</div>
+			<img src="images/right-arrow.png" id="next">
+		</div>
+	</div>
 
+<script>
+
+	var prev = document.getElementById("prev");
+	var next = document.getElementById("next");
+	var thumbnail = document.getElementsByClassName("thumbnail");
+	var hero = document.getElementById("hero");
+
+	var backgroundImg = new Array(
+		"img/ok1.jpg",
+		"img/ok2.jpg",
+		"img/ok3.jpg",
+		"img/ok4.jpg",
+
+		);
+		let i = 0;
+		next.onclick = function(){
+
+			if(i < 3){
+				hero.style.backgroundImage = 'url("'+backgroundImg[i+1]+'")';
+				thumbnail[i+1].classList.add("active");
+				thumbnail[i].classList.remove("active");
+				i++;
+			}
+		}
+		prev.onclick = function(){
+
+			if(i > 0){
+				hero.style.backgroundImage = 'url("'+backgroundImg[i-1]+'")';
+				thumbnail[i-1].classList.add("active");
+				thumbnail[i].classList.remove("active");
+				i--;
+			}
+		}
+
+</script>
+</body>
 </html>
