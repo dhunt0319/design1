@@ -19,6 +19,7 @@
 	z-index: 2;
 
 }
+
 .content .logo{
 	width: 150px;
 	margin-top: 20px;
@@ -54,6 +55,30 @@
 	border-radius: 20px;
 	display: inline-block;
 	margin-top: 40px;
+
+}
+.link .btn2{
+	padding: 8px 25px;
+	text-decoration: none;
+	border: 1px solid #fff;
+	color: #fff;
+	border-radius: 20px;
+	display: inline-block;
+	position: absolute;
+	margin-left: 1100px;
+	margin-top: 20px;
+
+}
+.link .btn3{
+	padding: 8px 25px;
+	text-decoration: none;
+	border: 1px solid #fff;
+	color: #fff;
+	border-radius: 20px;
+	display: inline-block;
+	position: absolute;
+	margin-left: 1000px;
+	margin-top: 20px;
 
 }
 .content p{

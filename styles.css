@@ -37,17 +37,38 @@
 	opacity: 0%;
 }
 
-.btn{
+.link .btn{
+	padding: 8px 25px;
 	text-decoration: none;
 	border: 1px solid #fff;
 	color: #fff;
-	padding: 8px 25px;
 	border-radius: 20px;
 	display: inline-block;
+	position: absolute;
 	margin-left: 1200px;
-	background: transparent;
 	margin-top: 20px;
+}
+.link .btn2{
+	padding: 8px 25px;
+	text-decoration: none;
+	border: 1px solid #fff;
+	color: #fff;
+	border-radius: 20px;
 	display: inline-block;
+	position: absolute;
+	margin-left: 1070px;
+	margin-top: 20px;
+}
+.link .btn3{
+	padding: 8px 25px;
+	text-decoration: none;
+	border: 1px solid #fff;
+	color: #fff;
+	border-radius: 20px;
+	display: inline-block;
+	position: absolute;
+	margin-left: 962px;
+	margin-top: 20px;
 }
 .container{
 	width: 50%;
