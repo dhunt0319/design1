@@ -35,6 +35,9 @@
 	font-weight: 100;
 	color: #fff;
 	letter-spacing: 4px;
+	line-height: .9;
+	font-family: 'Rubik', sans-serif;
+
 }
 .sidebar{
 	width: 30%;
@@ -53,7 +56,7 @@
 	color: #fff;
 	border-radius: 20px;
 	display: inline-block;
-	margin-top: 190px;
+	margin-top: 140px;
 
 }
 .content p{
@@ -61,5 +64,5 @@
 	color: #fff;
 	letter-spacing: 1px;
 	line-height: 20px;
-	font-size: 12px;
+	font-size: 14px;
 }

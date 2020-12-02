@@ -20,20 +20,22 @@
 }
 .content .logo{
 	width: 100px;
-	margin-top: 50px;
+	margin-top: 40px;
 }
 .content hr{
 	border: none;
 	height: 6px;
 	max-width: 280px;
-	margin-top: 8px;
+	margin-top: 2px;
 	background: #55bcce;
+	font-family: 'Rubik', sans-serif;
 }
 .content h1{
 	font-size: 130px;
 	font-weight: 100;
 	color: #fff;
 	letter-spacing: 4px;
+	line-height: .9;
 }
 .sidebar{
 	width: 30%;
@@ -59,6 +61,6 @@
 	color: #fff;
 	border-radius: 20px;
 	display: inline-block;
-	margin-top: 50px;
+	margin-top: 130px;
 	
 }
